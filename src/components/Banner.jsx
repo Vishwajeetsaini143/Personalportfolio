@@ -1,9 +1,10 @@
 import React from "react";
-import { ImFacebook } from "react-icons/im";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { TfiPinterestAlt } from "react-icons/tfi";
-import { GrInstagram } from "react-icons/gr";
-import { FaPlay } from "react-icons/fa";
+import {FaReact} from 'react-icons/fa'
+import {TbBrandJavascript} from "react-icons/tb"
+import {ImHtmlFive} from "react-icons/im"
+import {FaCss3Alt} from "react-icons/fa"
+import {SiJquery} from "react-icons/si"
+import {FaPlay} from "react-icons/fa"
 import my from "../Images/my.png";
 const Banner = () => {
   return (
@@ -15,19 +16,19 @@ const Banner = () => {
               <div className="header-section">
                 <ul className="header-ul">
                   <li>
-                    <ImFacebook />
+                  <FaReact />
                   </li>
                   <li>
-                    <AiOutlineTwitter />
+                  <SiJquery/>
                   </li>
                   <li>
-                    <TfiPinterestAlt />
+                  <TbBrandJavascript/>
                   </li>
                   <li>
-                    <GrInstagram />
+                  <ImHtmlFive/>
                   </li>
                   <li>
-                    <ImFacebook />
+                  <FaCss3Alt/>
                     
                   </li>
                 </ul>
