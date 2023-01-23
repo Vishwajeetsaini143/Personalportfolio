@@ -401,7 +401,7 @@ color: #0e0c74;
 .toggle{
   position: fixed;
   top: 38px;
-  right: 30px;
+  right: -30px;
   color: #fff;
 cursor: pointer;
 display: none;
@@ -522,7 +522,15 @@ letter-spacing: 1px;
 @media (max-width:765px){
   .container{
     width: 100%;
-    padding:  0 50px;
+    padding:  0 20px;
+  }
+  .banner-img img{
+    width: 350px !important;
+    height: 500px !important;
+    margin-left: 80px !important;
+    margin-top: 120px !important;
+  
+  
   }
   .col-6{
     width: 100%;
@@ -531,12 +539,12 @@ letter-spacing: 1px;
     flex-direction: column;
     width: 30%;
     margin-top: 100px;
-    right: 0;
+    right: -8%;
   
     align-items: center;
     
     position: absolute;
-    top: -25px;
+    top: -34%;
     border-radius: 10px;
 
     background: #1f2235;
