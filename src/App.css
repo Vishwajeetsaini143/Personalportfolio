@@ -560,14 +560,14 @@ letter-spacing: 1px;
   .navbar-right.show{
     display: block;
     text-align: center;
-    margin-right: 15px;
+    margin-right: 45px;
     padding: 10px;
   
 
   }
   .toggle{
     display: flex;
-    margin-right: 60px;
+    margin-right: 86px;
     align-items: center;
     justify-content: center;
   }
